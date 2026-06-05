@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Grind</title>
+    <script src='https://cdn.tailwindcss.com'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="sticky top-0 z-10 bg-charcoal py-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-amber-400">Daily Grind</h1>
+            <ul class="flex items-center space-x-4">
+                <li><a href="#" class="text-lg text-white hover:text-amber-400 transition duration-300">Home</a></li>
+                <li><a href="#" class="text-lg text-white hover:text-amber-400 transition duration-300">About</a></li>
+                <li><a href="#" class="text-lg text-white hover:text-amber-400 transition duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero bg-charcoal h-screen flex justify-center items-center">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold text-white mb-4">Elevate your daily grind</h1>
+            <p class="text-lg text-white mb-8">Experience the perfect blend of art and coffee</p>
+            <button class="bg-amber-400 hover:bg-amber-500 text-white font-bold py-2 px-4 rounded transition duration-300">View Menu</button>
+        </div>
+    </section>
+    <section class="bg-charcoal py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-8">Signature Coffee Drinks</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded shadow-md p-4">
+                    <img src="https://images.unsplash.com/photo-1574680263452-787b74154c7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Coffee Drink 1" class="w-full h-40 object-cover rounded mb-4">
+                    <h3 class="text-lg font-bold text-white mb-2">Caramel Delight</h3>
+                    <p class="text-lg text-white mb-4">$4.50</p>
+                </div>
+                <div class="bg-gray-800 rounded shadow-md p-4">
+                    <img src="https://images.unsplash.com/photo-1544001107-39535797c7cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Coffee Drink 2" class="w-full h-40 object-cover rounded mb-4">
+                    <h3 class="text-lg font-bold text-white mb-2">Mocha Madness</h3>
+                    <p class="text-lg text-white mb-4">$4.25</p>
+                </div>
+                <div class="bg-gray-800 rounded shadow-md p-4">
+                    <img src="https://images.unsplash.com/photo-1559839733-9093b4dfd08f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Coffee Drink 3" class="w-full h-40 object-cover rounded mb-4">
+                    <h3 class="text-lg font-bold text-white mb-2">Latte Luxury</h3>
+                    <p class="text-lg text-white mb-4">$4.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-charcoal py-8">
+        <div class="container mx-auto text-center">
+            <p class="text-lg text-white mb-4">Daily Grind Coffee Shop</p>
+            <p class="text-lg text-white mb-4">123 Main St, Anytown, USA</p>
+            <p class="text-lg text-white mb-4">Mon-Thu: 7am-7pm, Fri-Sat: 7am-10pm, Sun: 8am-6pm</p>
+        </div>
+    </footer>
+</body>
+</html>
